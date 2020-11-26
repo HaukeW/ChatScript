@@ -1,0 +1,8 @@
+TOPIC: ~application ( ~study )
+
+t: Do you want to apply at Hamburg University?
+
+a: ( ~yes ) Ok! Do you have a Bachelor or a Master program in mind?
+a: ( ~no ) Ok! So what brings you here?
+
+t: (<< conditional admission >> ) Universität Hamburg does not offer conditional admission for international students not fulfilling the German language requirements. Please find more information <a href="https://www.cc-forum.uni-hamburg.de/forum/viewtopic.php?t=4307#p11167" target="_blank">here</a>.

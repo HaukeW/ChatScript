@@ -1,0 +1,13 @@
+# underlying conversation system
+RAWDATA/UHH/simplecontrol.top
+RAWDATA/UHH/simpletopic.top
+RAWDATA/UHH/introduction.top
+RAWDATA/UHH/study_in_english.top
+RAWDATA/UHH/scholarships.top
+RAWDATA/UHH/freemover.top
+RAWDATA/UHH/german_proficiency.top
+RAWDATA/UHH/non_eu.top
+RAWDATA/UHH/know_which_program.top
+RAWDATA/UHH/dunno.top
+# quibble ability
+RAWDATA/QUIBBLE/

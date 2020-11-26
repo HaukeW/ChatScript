@@ -1,0 +1,11 @@
+TOPIC: ~bachelor (bachelor ~teach_subjects)
+
+t: Since the bachelor programs offered by Hamburg University are taught in German, you need to provide proof of German language proficiency to be admitted. Are you C1 proficient in German?
+$bachelor=true
+  a: ( ~yes ) That's great! You can find an overview of the bachelor programs offered at Hamburg University <a href="https://www.uni-hamburg.de/en/campuscenter/studienangebot.html#Abschluss=opt1&Fakultaet=&sort=&index=" target="_blank>here</a>"
+              $c1=true
+  a: ( ~no )  In that case you would either have to learn German or you could apply for a master program taught entirely in English.
+              $c1=false
+u: ( $c1=true ) Do you require any other information?
+
+u: ( $c1=false ) German proficiency.

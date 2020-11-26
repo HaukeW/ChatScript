@@ -1,0 +1,13 @@
+TOPIC: ~money ( ~finance ~wohnung )
+
+t: ( ~finance ) do you require information on study fees or the semster contribution?
+  a: ( ~yes ) Most programs at Universität Hamburg Please find information on the semester contribution <a href="https://www.uni-hamburg.de/en/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren/semesterbeitrag.html" target=_blank>here</a>.
+    $semesterbeitrag=true
+  a: ( ~no ) Ok! How can I help you then?
+    $semesterbeitrag=false
+
+t: ( ~wohnung ) Do you want to know about accomodation?
+  a: ( ~yes ) You can find out about finding accomodation <a href="https://www.uni-hamburg.de/en/campuscenter/campus-leben/wohnen.html" target="_blank">here</a>
+    $wg=true
+  a: ( ~no ) Ok! How can I help you then?
+    $wg=false

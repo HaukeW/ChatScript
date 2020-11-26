@@ -1,0 +1,11 @@
+TOPIC: ~visa repeat ( visa )
+
+t:  Do you require information on visa? Please include the topic you want information on.
+
+  a: ( ~yes ) You can find more information on visa <a href="https://www.uni-hamburg.de/en/campuscenter/studienorganisation/formulare-informationsmerkblaetter/visas-residence-permits.pdf" target="_blank">here</a> $visa=true
+  a: ( ~no )  Ok. How can I help you then?
+              $visa=false
+
+t: ($visa=false ~sperr_konto) Please find information on blocked accounts <a href="https://www.auswaertiges-amt.de/en/einreiseundaufenthalt/02-lernen-und-arbeiten/sperrkonto-seite" target="_blank">here</a>.
+
+t: What else can I help you with?

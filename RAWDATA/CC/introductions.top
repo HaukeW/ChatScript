@@ -1,0 +1,19 @@
+
+topic: ~INTRODUCTIONS keep repeat (~emogoodbye ~emohello ~emohowzit name here ) []
+
+#!x will match on every return start of a conversation
+t: ( %input<%userfirstline %input>0 )
+	^keep() ^repeat()
+	[Welcome back] [Hello, again.][Glad you came back.][Hi.][Hi, again.]
+
+t: ( ~emohello ) Hi There! Please state the nature of your medical emerg...uhm, no wait...what do you need?
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline )
+	^keep() ^repeat()
+	Welcome to Universität Hamburg! How can I help you? (HTML hier)
+
+u: ( ~more information ) Ok! How can I help you?
+^keep()
+
+t: ( ~english ) Since most programs at Universität Hamburg are taught in the German language English language proficiency is only required for a few programs taught at Universität Hamburg. Please find an overview of the programs taught in English <a href="https://www.uni-hamburg.de/en/campuscenter/studienangebot.html#65,98,115,99,104,108,117,115,115,61,111,112,116,51,38,70,97,107,117,108,116,97,101,116,61,38,115,111,114,116,61,83,112,114,97,99,104,101,38,115,111,114,116,45,100,105,114,61,117,112,38,105,110,100,101,120,61" target="_blank">here</a>. Your IETLS results may only matter if applying to these programs.

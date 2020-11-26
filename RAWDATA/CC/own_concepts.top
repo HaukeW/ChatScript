@@ -1,0 +1,13 @@
+topic: ~own_concepts []
+
+concept: ~vpd [uni-assist vpd vorprüfungsdokumentation GPA schooling]
+concept: ~study ["study in hamburg" study studies apply application ]
+concept: ~german [German Deutsch sprache sprachkenntnisse "german proficiency" "German language" ]
+concept: ~sperr_konto [sperrkonto blocked account ]
+concept: ~wohnung [accomodation "cost of living" rent wg ]
+concept: ~finance ["semester contribution" "tuition fee"]
+concept: ~europ [ ~europealliance ]
+concept: ~english [ IETLS ]
+concept: ~phd ["Ph.D." phd doctorate doktor doktorarbeit promotion ]
+
+concept: ~philosophy [Plato Aristotle Kant "free will" "trolley problem" "thought experiment" "meaning of life"]

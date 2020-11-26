@@ -1,0 +1,14 @@
+topic: ~introductions keep repeat()
+
+t: Good day! How can I help you??<br>
+
+<div id="auswahl">
+    <button class="auswahl" onClick="choose('How do I apply to Universität Hamburg?')">How do I apply to Universität Hamburg?</button><br>
+    <button class="auswahl" onClick="choose('Can you study at Universität Hamburg in English?')">Can you study at Universität Hamburg in English?</button><br>
+    <button class="auswahl" onClick="choose('Does Universität Hamburg offer scholarships?')">Does Universität Hamburg offer scholarships?</button><br>
+    <input type="button" value="I have another question" onClick="window.open('https://www.uni-hamburg.de/en/campuscenter/beratung/kontakt/kontaktformular-internationales.html#2908007','pwin')">
+    <div id="result"></div>
+    <br>
+    <!--<button onClick="test()">DEBUG</button>-->
+    Please confirm by pressing "Enter" after selecting a topic!
+</div>

@@ -1,0 +1,7 @@
+TOPIC: ~doktor (~phd)
+
+t: Are you interested in applying for a doctorate (Ph.D) at Universität Hamburg?
+a: ( ~yes ) That's great! In that case I would recommend using the our <a href="https://www.uni-hamburg.de/en/campuscenter/beratung/info-beratung-online/kontaktformular-campus-center.html" target="_blank">contact form</a>.
+
+a: ( ~no )  Ok. So how can I help you then?
+            $doktor=false

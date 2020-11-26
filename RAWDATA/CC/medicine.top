@@ -1,0 +1,5 @@
+TOPIC: ~medicine ("study medicine" medicine dentistry)
+
+t: Do you want to apply for medicine or dentistry?
+  a: ( ~yes ) That's great!
+  a: ( ~no ) So...what brings you here then?

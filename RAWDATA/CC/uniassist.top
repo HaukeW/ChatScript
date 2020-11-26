@@ -1,0 +1,14 @@
+TOPIC: ~uniassist ( ~vpd )
+
+t: ( ~vpd ) To apply to Universität Hamburg as an international applicant, for many programs you need to have your documents checked in a "preliminary documentation" procedure by uni-assist Do you have a VPD?
+  a: ( ~yesanswer ) Good! You can find out more on that topic <a href="https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/anerkennung-auslaendischer-schulbildung.html" target="_blank">here</a>. Do you have any other questions?
+    $vpd=true
+    b: ( ~yesanswer ) Ok! How can I help you?
+    b: ( ~no ) $botdoof=true
+  a: ( ~no ) You can find out more on that topic <a href="https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/anerkennung-auslaendischer-schulbildung.html" target="_blank">here</a>. Do you have any other questions?
+    $vpd=false
+    b: ( ~yesanswer ) Ok! How can I help you?
+    b: ( ~no ) $botdoof=true
+
+t: ( GPA ) GPA.
+  $botdoof=true

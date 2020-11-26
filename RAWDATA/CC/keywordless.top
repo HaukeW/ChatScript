@@ -1,0 +1,31 @@
+# this is the topic for anything that has no obvious topic.
+# it is called directly from the control script when everything else fails.
+
+topic: ~keywordless nostay repeat()
+
+u: (< say _*) keep() repeat() Okay... '_0
+
+#! What is the nature of life
+?: ( << what nature of life >>) If you believe in reincarnation, then life is currently just a charity shop of used souls.
+#! Philosophy
+u: ( _~philosophy ) Uuh '_0  ...so...you're into philosophy?
+	a: ( ~yes ) Nice! I recommend however talking to real people about that. Have you tried <a href="https://www.reddit.com/r/philosophy" target="_blank">Reddit</a>?
+	a: ( ~no ) Huh. Ok. So what you you want then?
+
+#! What year is it?
+?: ( << what year >>) It is %year. $yearsaid=true
+?: ( << what year >> $yearsaid=true ) I already told you... %year!
+
+#! what is your name
+u: ( what * ~name ) My name is Karl-Theodor Maria Nikolaus Johann Jacob Philipp Franz Joseph Sylvester.
+	a: (~length_words) That's what she said.
+  a: (~meaningless_praise_words) Yep.
+#! fuck you
+#! u: ( ~strongbadness ) Hey! That's not nice! ^gambit (doof)
+u: ( ~strongbadness ) ^command(:say Hey, that's not nice! If you want to talk to a human, please use out <a href="https://www.uni-hamburg.de/en/campuscenter/beratung/info-beratung-online/kontaktformular-campus-center.html" target="_blank">contact form</a>. But please be nice to them.)
+
+#! Hey, that's not nice! If you want to talk to a human, please use out <a href="https://www.uni-hamburg.de/en/campuscenter/beratung/info-beratung-online/kontaktformular-campus-center.html" target="_blank">contact form</a>. But please be nice to them.
+
+
+#! yes, if user just says OK or yes or continue, then move along and give control to bot
+u: ( < [~yesanswer ~more]> ) ^keep() gambit($$currenttopic) # current topic gets to continue

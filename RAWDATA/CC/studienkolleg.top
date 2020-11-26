@@ -1,0 +1,10 @@
+TOPIC: ~studienkolleg [ propädeutikum fsp feststellungsprüfung ]
+
+t: Are you interested in enrolling at Studienkolleg Hamburg for a Propädeutikum or a Feststellungsprüfung?
+  a: ( ~yes ) Great! So...are you interested in a Propädeutikum? If that is the case you can find information on that <a href="https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/propaedeutikum.html" target="_blank">here</a>. Or are you rather interested in information on a Feststellungsprüfung?
+  $studienkolleg=true
+    b: ( ~ yes ) Ok!  If you are rather interested in a Feststellungsprüfung you can find more information <a href="https://www.uni-hamburg.de/en/campuscenter/studienangebot/international/studienkolleg-hamburg.html" target="_blank">here</a>.
+    b: ( ~no )  ^gambit ( ~doof FAIL )
+
+  a: ( ~no ) Ok, how can I help you then?
+  $studienkolleg=false
